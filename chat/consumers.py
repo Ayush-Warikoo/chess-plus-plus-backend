@@ -145,6 +145,8 @@ class ChatConsumer(WebsocketConsumer):
             game.game_status = 'A'
             game.save()
             
+            # TODO: remove game from all lobby group channels
+            
         
         game = ChessGame.objects.get(game_key=self.room_name)
         role = 'spectator'
