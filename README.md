@@ -17,8 +17,6 @@
 
 Chess++ is an online chess web application, using Django channels and Websocket API for real-time communication, with a server-client architecture. The application is built with React (Frontend) and Django (Backend), with a redis in-memory store and deployed using AWS. The project is still early in development and will include a number of unique game modes and features.
 
-A deployed demo is available at [https://www.mastermenu.ca](https://www.mastermenu.ca/).
-
 # Local Development
 
 1. Clone both the frontend and backend Chess++ repositories and place them in the same directory
